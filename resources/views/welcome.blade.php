@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
     <head>
@@ -275,3 +276,14 @@
         @endif
     </body>
 </html>
+=======
+@extends('layouts.app')
+
+@section('content')
+    @include('components._hero')
+    @include('components._about')
+    @include('components._facilities')
+    @include('components._activities')
+    @include('components._contact')
+    @endsection
+>>>>>>> rama-ayelen
